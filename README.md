@@ -11,11 +11,14 @@ The following two ways to deploy Docker services.
 
 ### Docker Hub(_Recommend_)
 
+Docker Hub: [windomz/free-idea](https://hub.docker.com/r/windomz/free-idea/)
+
 Run the following line to deploy in [Docker](https://docs.docker.com/): 
 
 ```bash
 $ docker run --restart=always -p 25252:25252 --name free-idea -d windomz/free-idea
 ```
+
 ### Docker Build(_Source_)
 
 Compile & Build from the source.
