@@ -2,12 +2,25 @@
 
 > Free IntelliJ IDEA License Server in Docker
 
-![v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue.svg)
-![active](https://img.shields.io/badge/status-active-green.svg)
+![v1.0](https://img.shields.io/badge/version-v1.0-blue.svg)
+![status](https://img.shields.io/badge/status-stable-green.svg)
 
 ## Usage
 
-#### Installation
+The following two ways to deploy Docker services.
+
+### Docker Hub(_Recommend_)
+
+Run the following line to deploy in [Docker](https://docs.docker.com/): 
+
+```bash
+$ docker run --restart=always -p 25252:25252 --name free-idea -d windomz/free-idea
+```
+### Docker Build(_Source_)
+
+Compile & Build from the source.
+
+#### 1. Installation
 
 Cloned to the deployment path.
 
@@ -18,7 +31,7 @@ $ cd free-idea
 
 You should have had [Docker](https://docs.docker.com/) installed.
 
-#### Build and Run
+#### 2. Build and Run
 
 Open the terminal(Linux or MacOS).
 
@@ -37,7 +50,7 @@ If fail, can try the `root` role:
 $ sudo ./build.sh
 ```
 
-#### Set license server
+### Set license server
 
 1. Open `IntelliJ IDEA`(or `WebStorm`, `PhpStorm`, etc.).
 1. In `License Activation`, choose `License server`.
