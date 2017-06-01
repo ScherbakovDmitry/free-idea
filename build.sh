@@ -9,7 +9,7 @@ fi
 
 docker rm -f free-idea
 docker build --rm=true \
--t windomz/free-idea \
+-t windomz/free-idea:1.0 \
 --file ./crack/Dockerfile ./crack
 if [ $? -ne 0 ]; then
   exit 1
@@ -21,6 +21,6 @@ if [ -n "$(echo $1| sed -n "/^[0-9]\+$/p")" ];then
 fi
 docker run --restart=always \
 -p ${port}:25252 \
---name free-idea -d windomz/free-idea
+--name free-idea -d windomz/free-idea:1.0
 
 rm ./crack/app.tar

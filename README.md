@@ -2,6 +2,9 @@
 
 > Free IntelliJ IDEA License Server in Docker
 
+![v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue.svg)
+![active](https://img.shields.io/badge/status-active-green.svg)
+
 ## Usage
 
 #### Installation
