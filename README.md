@@ -40,7 +40,7 @@ $ sudo ./build.sh
 #### Set license server
 
 1. Open `IntelliJ IDEA`(or `WebStorm`, `PhpStorm`, etc.).
-1. In `License Activation`, chose `License server`.
+1. In `License Activation`, choose `License server`.
 1. Enter `http://127.0.0.1:25252` in the `License server address` input.
 1. Click `OK` button.
 
