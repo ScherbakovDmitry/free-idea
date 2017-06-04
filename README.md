@@ -5,7 +5,7 @@
 ![v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue.svg)
 ![status](https://img.shields.io/badge/status-stable-green.svg)
 
-[中文文档](https://github.com/WindomZ/free-idea/blob/master/README_Ch-zh.md)
+[中文文档](https://github.com/WindomZ/free-idea/blob/master/README_Ch-zh.md#readme)
 
 ## Usage
 
