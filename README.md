@@ -2,8 +2,10 @@
 
 > Free IntelliJ IDEA License Server in Docker
 
-![v1.0](https://img.shields.io/badge/version-v1.0-blue.svg)
+![v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue.svg)
 ![status](https://img.shields.io/badge/status-stable-green.svg)
+
+[中文文档](https://github.com/WindomZ/free-idea/blob/master/README_Ch-zh.md)
 
 ## Usage
 
@@ -62,7 +64,7 @@ $ sudo ./build.sh
 
 ## Reference
 
-- [ilanyu](http://www.lanyus.com/)
+- [ilanyu](http://www.lanyus.com/) - IntelliJ IDEA License Server v1.4
 
 ## License
 
